@@ -71,7 +71,7 @@
   - _continue statement_
   - _default_
 * ternary operator
-  - `_condition_ ? ... : ...`
+  - `<condition> ? ... : ...`
 * while loop
   - _takes condition_
   - _can take update e.g. increment_
@@ -106,3 +106,27 @@ do while loop
   - `public static final double PI = 3.14159`
   - _can be called by static on non-static method depending on class location_
   - _can only be changed by the static members_
+
+## **Modifier Types**
+* Access
+  - _**public**_
+    - _if accessed by another package, there is need to import the class into the required class_
+    - _all public methods or variables of a class are inherited by its subclasses_
+  - _**private**_
+    - _accessible only within the same class_
+    - _to access them outside a class, there is need to define a public getter & setter methods_
+    - _`return this.name`_
+    - _`this.name = name`_
+  - _**protected**_
+    - _can be only be accessed by subclasses in other packages or any class within the same package_
+    - _**!**methods and fields in an interface can't be declared protected_
+  - _**no modifiers**_
+    - _can't be accessed by classes in another package_
+* Non-Access
+  - _**static**_
+  - _**final**_
+  - _**abstract**_
+  - _**synchronized**_
+  - _**volatile**_
+* Default Access - No Keyword
+  - _available to any other class methods in same package_
