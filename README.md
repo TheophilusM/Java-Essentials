@@ -79,4 +79,14 @@
   - _takes initialization_
   - _takes condition_
   - _can take update e.g. decrement_
-  - 
+  - `for(int x=5; x >= 0; x--) {}`
+* enhanced for loop
+  - traverse collection of elements
+  - `for(int number : numbers) {}` 
+do while loop
+  - _takes condition in while block_
+  - _can take increment_
+* loop control statements
+  - _break_
+  - _continue_
+* 
