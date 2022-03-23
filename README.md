@@ -127,8 +127,8 @@ do while loop
     - _for creating class methods and variables_
     - _can be called with class name, no object reference needed_
     - _static variables_
-      _aka class variables_
-      _can be called by both static and non-static variables_
+      - [ ] _aka class variables_
+      - [ ] _can be called by both static and non-static variables_
       - [ ] _instance variables can't be called by static methods_
       - [ ] _only a static method can change it_
     - _static methods_
@@ -154,15 +154,15 @@ do while loop
   - _**synchronized, transient & volatile**_
     - _used for threads to allow for concurrent task executions_
     - _synchronise_
-      - _to indicate that a method can be accessed by only one thread at a time_
-      - _can be applied with any of the four access level modifiers_
+      - [ ] _to indicate that a method can be accessed by only one thread at a time_
+      - [ ] _can be applied with any of the four access level modifiers_
     - _transient_
-      - _used with instance variables to exclude them from serialization - when running a number of threads, state of object stored in streams_
-      - _when object is deserialized, it is reset to its default value - null for reference types, 0 for primitive types_
-      - _can only be used with static keyword_
+      - [ ] _used with instance variables to exclude them from serialization - when running a number of threads, state of object stored in streams_
+      - [ ] _when object is deserialized, it is reset to its default value - null for reference types, 0 for primitive types_
+      - [ ] _can only be used with static keyword_
     - _volatile_
-      - _related to the visibility of variables when a number of threads are running concurrently_
-      - _can't be used with the static keyword_
-      - _value stored in main memory no CPU cache_
+      - [ ] _related to the visibility of variables when a number of threads are running concurrently_
+      - [ ] _can't be used with the static keyword_
+      - [ ] _value stored in main memory no CPU cache_
 * Default Access - No Keyword
   - _available to any other class methods in same package_
