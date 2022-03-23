@@ -1,4 +1,4 @@
-# **Java Essentials :smile:**
+# **Java Essentials :smirk:**
 
 ## **Editions**
 * SE - Standard Edition
@@ -127,8 +127,8 @@ do while loop
     - _for creating class methods and variables_
     - _can be called with class name, no object reference needed_
     - _static variables_
-      - [ ] _aka class variables_
-      - [ ] _can be called by both static and non-static variables_
+      _aka class variables_
+      _can be called by both static and non-static variables_
       - [ ] _instance variables can't be called by static methods_
       - [ ] _only a static method can change it_
     - _static methods_
