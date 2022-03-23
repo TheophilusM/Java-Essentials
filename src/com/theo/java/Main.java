@@ -23,7 +23,7 @@ public class Main {
         System.out.println("");
 
         // *** data types ***
-        // primitive
+        // ** primitive
         //      >> byte     - 8 bits
         //      >> short    - 16 bits
         //      >> int      - 32 bits
@@ -35,10 +35,11 @@ public class Main {
                     char b = 'B';
         //      >> boolean  - 1 bit
                     boolean c = true;
-        // reference - created using constructors
+        // ** reference - created using constructors
         //      >> string
         //      >> arrays
         //      >> classes
+        // ** escape sequences
 
     }
 }
