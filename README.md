@@ -1,5 +1,6 @@
-# **Java**
+# **Java Essentials**
 
+## **Editions**
 * SE - Standard Edition
 * EE - Enterprise Edition
 * ME - Micro Edition
@@ -58,7 +59,7 @@
     -- _instanceof - check if type_of a data type_
     -- _precedence of - operator priorities_
 
-## **Conditional statements**
+## **Conditional statements and loops**
 * if
 * if-else
 * if...else-if
@@ -69,3 +70,13 @@
   - _break statement_
   - _continue statement_
   - _default_
+* ternary operator
+  - `_condition_ ? ... : ...`
+* while loop
+  - _takes condition_
+  - _can take update e.g. increment_
+* for loop
+  - _takes initialization_
+  - _takes condition_
+  - _can take update e.g. decrement_
+  - 
