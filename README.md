@@ -89,4 +89,20 @@ do while loop
 * loop control statements
   - _break_
   - _continue_
-* 
+
+## **Variables Types**
+* local variables
+  - _local to a particular method, constructor, block_
+  - _not accessible to other methods_
+  - _should be assigned a value before they can be used_
+* instance variables
+  - _declared inside a class but outside methods_
+  - _can be accessed by other methods_
+  - _can take a default value_
+  - _can be accessed directly or through object references of the class they are declared and methods they are used in a class_
+* class/static variables
+  - _declared inside a class but outside methods with a static keyword_
+  - _can be used to private/public/final declare constants_
+  - `public static final double PI = 3.14159`
+  - _can be called by static on non-static method depending on class location_
+  - _can only be changed by the static members_
