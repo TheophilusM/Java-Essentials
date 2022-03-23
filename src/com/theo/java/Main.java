@@ -19,27 +19,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Good Day");         // prints per line
         System.out.print("Good Day");           // prints in same line
-
         System.out.println("");
-
-        // *** data types ***
-        // ** primitive
-        //      >> byte     - 8 bits
-        //      >> short    - 16 bits
-        //      >> int      - 32 bits
-                    int a = 10;
-        //      >> long     - 64 bits
-        //      >> float    - 32 bits
-        //      >> double   - 64 bits
-        //      >> char     - 16 bits
-                    char b = 'B';
-        //      >> boolean  - 1 bit
-                    boolean c = true;
-        // ** reference - created using constructors
-        //      >> string
-        //      >> arrays
-        //      >> classes
-        // ** escape sequences
-
     }
 }
