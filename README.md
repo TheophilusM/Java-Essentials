@@ -1,10 +1,10 @@
-*** Java 
+# **Java**
 
 * SE - Standard Edition
 * EE - Enterprise Edition
 * ME - Micro Edition
 
-** Features
+## **Features**
 * OOP
 * Platform Independent
 * Simple and Secure
@@ -17,11 +17,11 @@
 * Distributed
 * Dynamic
 
-** History
+## **History**
 * June 1991
 * James  Gosling
 
-** Basic Syntax
+## **Basic Syntax**
 * Case sensitive
 * Class name - uppercase
 * Method name - lowercase, camel casing
@@ -30,30 +30,42 @@
 * can't use predefined keywords
 * white space is ignored by compiler
 * comments
-  - // ...single-line...
-  - /* ...multi-line... */
+  - _// ...single-line..._
+  - _/* ...multi-line... */_
 
-** data types
+## **data types**
 * primitive
-  - byte     - 8 bits
-  - short    - 16 bits
-  - int      - 32 bits
-  - long     - 64 bits
-  - float    - 32 bits
-  - double   - 64 bits
-  - char     - 16 bits - single quotes
-  - boolean  - 1 bit
+  - _byte     - 8 bits_
+  - _short    - 16 bits_
+  - _int      - 32 bits_
+  - _long     - 64 bits_
+  - _float    - 32 bits_
+  - _double   - 64 bits_
+  - _char     - 16 bits - single quotes_
+  - _boolean  - 1 bit_
 * reference - created using constructors
-  - string - double quotes
-  - arrays
-  - classes
+  - _string - double quotes_
+  - _arrays_
+  - _classes_
 * escape sequences
-  - arithmetic (+, -, *, /, ++, --, %)
-  - relational (==, !=, >, <, >=, <=)
-  - bitwise (&, |, ^, ~)
-  - logical (&&, ||, !)
-  - assignment (=, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, != )
-  - misc 
-    -- conditional
-    -- instanceof     - check if type_of a data type,
-    -- precedence of  - operator priorities
+  - _arithmetic (+, -, *, /, ++, --, %)_
+  - _relational (==, !=, >, <, >=, <=)_
+  - _bitwise (&, |, ^, ~)_
+  - _logical (&&, ||, !)_
+  - _assignment (=, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, != )_
+  - _misc_ 
+    -- _conditional_
+    -- _instanceof - check if type_of a data type_
+    -- _precedence of - operator priorities_
+
+## **Conditional statements**
+* if
+* if-else
+* if...else-if
+* nested if 
+* switch
+  - _switch expression_
+  - _case_
+  - _break statement_
+  - _continue statement_
+  - _default_
