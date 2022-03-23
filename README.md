@@ -119,7 +119,7 @@ do while loop
     - _`this.name = name`_
   - _**protected**_
     - _can be only be accessed by subclasses in other packages or any class within the same package_
-    - _**!**methods and fields in an interface can't be declared protected_
+    - _!methods and fields in an interface can't be declared protected_
   - _**no modifiers**_
     - _can't be accessed by classes in another package_
 * Non-Access
