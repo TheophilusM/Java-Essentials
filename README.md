@@ -127,18 +127,15 @@ do while loop
     - _for creating class methods and variables_
     - _can be called with class name, no object reference needed_
     - _static variables_
-      > &rarr; _aka class variables_
-      > 
-      > &rarr; _can be called by both static and non-static variables_
-      > 
-      > &rarr; _instance variables can't be called by static methods_
-      > 
-      > &rarr; _only a static method can change it_
+      > + _aka class variables_
+      > + _can be called by both static and non-static variables_
+      > + _instance variables can't be called by static methods_
+      > + _only a static method can change it_
     - _static methods_
-      &rarr;  _do not use instance variables instead take the data from parameters and compute them_
-      &rarr;  _does not allow non-static variables or methods_
-      &rarr;  _does not allow **this** and **super** keywords_
-      &rarr;  _execute before the main methods at time of class loading_
+      > + _do not use instance variables instead take the data from parameters and compute them_
+      > + _does not allow non-static variables or methods_
+      > + _does not allow **this** and **super** keywords_
+      > + _execute before the main methods at time of class loading_
   - _**final**_
     - _for finalizing the implementations of classes, methods and variables_
     - _variable declared cannot be changed_
