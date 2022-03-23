@@ -1,4 +1,4 @@
-*** Java
+*** Java 
 
 * SE - Standard Edition
 * EE - Enterprise Edition
@@ -28,3 +28,7 @@
 * Program file name - same as the class name
 * correct chars => A to Z, a to z, $, _
 * can't use predefined keywords
+* white space is ignored by compiler
+* comments
+  - // ...single-line...
+  - /* ...multi-line... */
