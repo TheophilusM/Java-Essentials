@@ -124,9 +124,45 @@ do while loop
     - _can't be accessed by classes in another package_
 * Non-Access
   - _**static**_
+    - _for creating class methods and variables_
+    - _can be called with class name, no object reference needed_
+    - _static variables_
+      - _aka class variables_
+      - _can be called by both static and non-static variables_
+      - _instance variables can't be called by static methods_
+      - _only a static method can change it_
+    - _static methods_
+      - _do not use instance variables instead take the data from parameters and compute them_
+      - _does not allow non-static variables or methods_
+      - _does not allow **this** and **super** keywords_
+      - _execute before the main methods at time of class loading_
   - _**final**_
+    - _for finalizing the implementations of classes, methods and variables_
+    - _variable declared cannot be changed_
+    - _a constructor can initialize an uninitialized variable in a static block only_
+    - _a final class can not be inherited_
+    - _a subclass can inherit the final method of the parent class but can't override it_
+    - _final parameters of a method can't be changed_
   - _**abstract**_
-  - _**synchronized**_
-  - _**volatile**_
+    - _for creating abstract classes and methods_
+    - _abstract class can never be instantiated. they can be subclassed_
+    - _abstract class can contain both abstract and normal methods_
+    - _any class that extends an abstract class must implement all the abstract methods of that class unless it is also an abstract_
+    - _an abstract method is a method declared without any implementation, its body is implemented by the subclass_
+    - _both abstract class and methods can never be final_
+    - _`public absract methodName();`_
+  - _**synchronized, transient & volatile**_
+    - _used for threads to allow for concurrent task executions_
+    - _synchronise_
+      - _to indicate that a method can be accessed by only one thread at a time_
+      - _can be applied with any of the four access level modifiers_
+    - _transient_
+      - _used with instance variables to exclude them from serialization - when running a number of threads, state of object stored in streams_
+      - _when object is deserialized, it is reset to its default value - null for reference types, 0 for primitive types_
+      - _can only be used with static keyword_
+    - _volatile_
+      - _related to the visibility of variables when a number of threads are running concurrently_
+      - _can't be used with the static keyword_
+      - _value stored in main memory no CPU cache_
 * Default Access - No Keyword
   - _available to any other class methods in same package_
