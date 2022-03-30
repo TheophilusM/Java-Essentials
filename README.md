@@ -194,6 +194,10 @@
   - _assignment_
 * can use a _for_ or _foreach_ loop to iterate/transverse an array
 * Array as method argument
-  - _pass array parameter: `methodName(new int[]{1,2,3,4})`_
-  - _receive array parameters: `public static void methodName(int[] arrayName)`_
-  - 
+  - _pass array parameter: `methodName(new int[]{1,2,3,4});`_
+  - _receive array parameters: `public static void methodName(int[] arrayName);`_
+* Array as return value
+  - _`return arrayName;`_
+  
+## **Constructors**
+* 
