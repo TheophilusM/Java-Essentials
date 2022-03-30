@@ -200,4 +200,23 @@
   - _`return arrayName;`_
   
 ## **Constructors**
-* 
+* Initializes an object of the class when it is created
+* A method defines the behaviour of a class
+* Constructor has the same name as its class and syntactically similar to a method.
+* To give initial values to instance variables defined by a class, or perform any other startup procedures required
+* A default constructor is by default provided by Java for a class that initializes all member variables to zero.
+* `ConstructorName` - same as class name
+  - `ConstructorName objName = new ConstructorName();` - _using constructor to create an object_
+  - _object will now allow access of values in constructor_
+  - _can pass parameters into constructor to update initialized variables  in constructor._
+* NB: Constructor is **_invoked_** when it is initialized/instantiated
+* Parameterized constructors
+  - Constructor will accept a parameter variable with type defined.
+* this keyword
+  - _used to reference to the object of the current class, within an instance method or constructor._
+  - _allows referring to the members of a class such a constructors, variables and methods._
+  - _differentiates the instance variable from the local variables if they have the same names, within a constructor or method._
+  - _`this.name = name;`_
+  - _`this()`_ - invokes the default constructor without arguments
+  - _`this.name`_ - refer to the instance variable
+  - _`this.methidName()`_ - to call a method of the class
