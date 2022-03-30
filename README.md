@@ -198,6 +198,7 @@
   - _receive array parameters: `public static void methodName(int[] arrayName);`_
 * Array as return value
   - _`return arrayName;`_
+
   
 ## **Constructors**
 * Initializes an object of the class when it is created
@@ -220,3 +221,11 @@
   - _`this()`_ - invokes the default constructor without arguments
   - _`this.name`_ - refer to the instance variable
   - _`this.methidName()`_ - to call a method of the class
+
+## **finalize() method**
+* a method that will be called before an object's final destruction by the garbage collector.
+* to ensure an object terminates cleanly
+* program threads
+  - main - during initialization
+  - thread scheduler
+  - garbage collector - release resources
