@@ -229,3 +229,37 @@
   - main - during initialization
   - thread scheduler
   - garbage collector - release resources
+
+## **Nested Classes**
+* inner and outer class logic
+* a nested class can help create the nested class as private
+* the inner class can access methods or members of its outer class
+* types
+  - _non-static_
+    - inner classes
+    - method local inner class
+    - anonymous inner class
+  - _static_
+    - static member of outside class 
+* **Inner classes**
+  - _to provide a sense of security, private class_
+  - _inner classes_ type
+    - _initiated in the method of the outer class_
+    - `InnerClass classOjc = new InnerClass()` - instantiation
+    - _can then use the method to access inner class methods_
+  - _method local inner class_ type
+    - _defining an inner class within a method_
+    - _scope of the class is restricted to that method_
+    - _instantiated only within the method it is defined_
+  - _anonymous inner_ class
+    - _inner class declared without a class name, outside a class_
+    - _`abstract class AnonymousClass{}`_
+    - _can be declared and instantiated at the same time_
+    - _used whenever a need to override a method of a class or interface_
+* **Static classes**
+  - _a static member of the outer class_
+  - _can be accessed without instantiating the outer class, using other static members_
+  - _`static class NestedClass{}`_ - defining
+  - _`MainClass.NestedClass nestedObj = new MainClass.NestedClass()`_ - to access inner class methods...
+
+##
