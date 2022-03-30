@@ -262,4 +262,10 @@
   - _`static class NestedClass{}`_ - defining
   - _`MainClass.NestedClass nestedObj = new MainClass.NestedClass()`_ - to access inner class methods...
 
-##
+## **Number Class**
+* _Instead of using primitive data types, a wrapper class can be used to deal with Numbers as objects_
+* boxing - primitive data type into an object, done by the compiler
+* unboxing - inverse of boxing
+* Number methods
+  - _equals(), round(), random(), tan(), max(), compareTo() e.t.c.,_
+* `Integer x = 5;`
