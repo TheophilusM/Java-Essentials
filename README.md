@@ -269,3 +269,11 @@
 * Number methods
   - _equals(), round(), random(), tan(), max(), compareTo() e.t.c.,_
 * `Integer x = 5;`
+
+## **Character Class**
+* `Character ch = new Character('a')`
+* `Character.isLowerCase('a')`
+* auto boxing and unboxing
+* Methods
+  - _isLetter(), toLowerCase(), toString() e.t.c._
+  - 
