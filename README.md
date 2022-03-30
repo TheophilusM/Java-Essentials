@@ -166,3 +166,10 @@ do while loop
       - [ ] _value stored in main memory no CPU cache_
 * Default Access - No Keyword
   - _available to any other class methods in same package_
+
+## **Methods**
+* allow grouped collection of statements to be executed together.
+* can return or not return values
+  - `return` or `void` keywords
+* can be invoked with or without parameters
+* 
