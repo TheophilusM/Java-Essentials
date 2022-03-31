@@ -307,3 +307,19 @@
 * Elapsed time
   - _Start and end time measure of a thread in milliseconds_
   - _`long start System.currentTimeMillis();`_ can then get the start and end difference
+
+## **Regular Expressions**
+* a special sequence of characters that helps match or find other strings or sets of strings
+* can eb used to search, edit, or manipulate text or data
+* use a pattern
+* Regex package classes
+  - _Pattern Class_
+  - _Matcher Class_
+  - _PatternSyntaxException Class_
+* Expression
+  - _^, $, \z, re*, [...], e.t.c._
+  - _`Pattern p = Pattern.compile(".m")`_ - define match pattern
+  - _`Matcher m = p.matcher(".am")`_ - pass string to be matched
+  - _`Boolean b = m.matcher()`_ - get match result, true or false
+  - _`boolean b = Pattern.matches(".m", ".am")`_ - in one line
+
