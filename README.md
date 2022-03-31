@@ -282,8 +282,12 @@
 * format() method returns a String object rather than a PrintStream object
   - _create a formatted strings that can be reused_
   - _String.format()_
+  - _takes in two parameters, the value to be printed and arguments to be placed in result_
+  - _%f - float, %d - int, %s - string_
 * printf(), println()
 * String class is immutable once created.
 * String Buffer and Builder classes used to modify the Strings.
 * Methods
-  - charAt(), 
+  - _charAt()_
+  - _compareTo()_
+  - _concat()_
