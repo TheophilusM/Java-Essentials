@@ -323,3 +323,8 @@
   - _`Boolean b = m.matcher()`_ - get match result, true or false
   - _`boolean b = Pattern.matches(".m", ".am")`_ - in one line
 
+## **Variable Arguments**
+* allow passing of a variable number of arguments of the same type to a method
+* dataType... parameterName
+* `static void display(String... values)`
+* Can pass 0 or many arguments
