@@ -301,4 +301,9 @@
   - using _`printf()`_ method starting with _`t`_
   - _`String str = String.format("Current date/time: %tc", new Date())`_
   - %indexNumber$
-  - **SimpleDateFormat class**
+  - **SimpleDateFormat class** 
+* Time Delay
+  - _`Thread.sleep(5*60*10);` - stop execution for 3 seconds_
+* Elapsed time
+  - _Start and end time measure of a thread in milliseconds_
+  - _`long start System.currentTimeMillis();`_ can then get the start and end difference
