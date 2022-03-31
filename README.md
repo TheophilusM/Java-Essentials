@@ -276,4 +276,14 @@
 * auto boxing and unboxing
 * Methods
   - _isLetter(), toLowerCase(), toString() e.t.c._
-  - 
+
+## **String Class**
+* `String message = 'Hello World'`
+* format() method returns a String object rather than a PrintStream object
+  - _create a formatted strings that can be reused_
+  - _String.format()_
+* printf(), println()
+* String class is immutable once created.
+* String Buffer and Builder classes used to modify the Strings.
+* Methods
+  - charAt(), 
