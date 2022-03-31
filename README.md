@@ -328,3 +328,25 @@
 * dataType... parameterName
 * `static void display(String... values)`
 * Can pass 0 or many arguments
+
+## **Java OOPs**
+* Objects - an instance of a class, has state and behaviour
+* Class - a combination of objects, a blueprint of the objects
+* Paradigms - programming techniques to perform certain instructions
+* Advantages
+  - Inheritance - code reusability in other classes
+  - Security - data hiding
+  - Project structuring
+* Concepts
+  * Inheritance
+    * Child class inherits methods and variables from parent class
+  * Polymorphism
+    * _Allow to perform a task defined once in multiple ways_
+    * _Overloading and overriding_
+  * Abstraction
+    * _Allows hiding internal data but show functionality of the program_
+  * Encapsulation
+    * _Wraps data and program together_
+### **_Inheritance_**
+* base and parent class
+* follow hierarchical order
