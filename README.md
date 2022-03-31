@@ -199,7 +199,6 @@
 * Array as return value
   - _`return arrayName;`_
 
-  
 ## **Constructors**
 * Initializes an object of the class when it is created
 * A method defines the behaviour of a class
@@ -291,3 +290,15 @@
   - _charAt()_
   - _compareTo()_
   - _concat()_
+
+## **Date and Time**
+* Methods
+  - _after(Date date)_
+  - _long getTime()_
+  - _`Date date = new Date()`_
+  - _`date.toString()`_ - display current date and time
+* Formatted Date and Time
+  - using _`printf()`_ method starting with _`t`_
+  - _`String str = String.format("Current date/time: %tc", new Date())`_
+  - %indexNumber$
+  - **SimpleDateFormat class**
