@@ -334,7 +334,7 @@
 * Class - a combination of objects, a blueprint of the objects
 * Paradigms - programming techniques to perform certain instructions
 * Advantages
-  - Inheritance - code reusability in other classes
+  - Inheritance - code reuse-ability in other classes
   - Security - data hiding
   - Project structuring
 * Concepts
@@ -350,3 +350,29 @@
 ### **_Inheritance_**
 * base and parent class
 * follow hierarchical order
+* Advantage - code reuse-ability
+* _**extends**_ keyword
+  - _`public class ChildClass extends ParentClass {}`_
+  - _`ChildClass objName = new ChildClass()`_ - to use instantiated methods and variables of the parents class
+* _**super**_ keyword
+  - _similar to this keyword_
+  - _to differentiate the members of superClass from the members of subClass, if they have same names_
+  - _used to invoke the superClass constructor from subclasses_
+  - _`super.varName`_ - to access a variable in parent class
+  - _`super.display()`_ - to access method in superClass
+  - _`super(values)`_ - to call a parameterized constructor of superClass
+    - _`ChildClass objName = new ChildClass(values)`_
+  - _`super()`_ - to call a default constructor of superClass
+* IS-A Relationship
+  - parent and child relationship
+  - use the _extends_ - class and _implements_ - interface keywords
+  - _`objNName instanceof ParentClass`_ check relationship
+  - **_instanceof_**
+    - _to determine relationships of classes and/or interfaces_
+* HAS-A Relationship
+  - _Based mainly on usage_
+  - _determines whether a class **HAS-A** certain thing_
+  - _helps to reduce duplication of code as well as bugs_
+  - _use a reference to the class being checked_
+  - _`ClassName c;`_ - class reference in another class, created as an object
+  - _`c.varName`_ - accessing the variables in the other class
