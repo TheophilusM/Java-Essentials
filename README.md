@@ -442,3 +442,19 @@
   - _The fields of a class can be read-only or write-only_
   - _Class can have total control over what is stored in its fields_
   - _Users of the class do not know how the class stores its data, class can change the datatype of the field and users of the class do not need to change any of their code_
+* **`getVar()`** and **`setName()`**
+
+## **Packages**
+* Grouping of classes, interfaces, enumerations, annotations, etc., providing access protection and name space management
+* Prevent naming conflict, to control access, to make sure searching/location and usage of classes
+* Types
+  - _User-defined_
+  - _Built-in_
+* creating a package > `package Human`
+* import keyword
+  - _To make the classes and interfaces of another package accessible to the current package_
+  - Access ways
+    * `...*` - all
+    * `...className` - specific class
+    * `...fullyQualifiedName` - creating an object reference
+      - _`packageName.ClassName objName = new packageName.ClassName()`_
