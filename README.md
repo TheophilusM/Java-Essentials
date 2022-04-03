@@ -401,3 +401,34 @@
     - _Benefit: Ability to define a behavior that s specific to the subclass type_
     - _dynamic  binding_
     - _`ParentClass objName = new ChildClass();`_
+### **_Abstraction_**
+* The process of hiding the implementation details from the useer
+* Only the functionality will be provided to the user
+* Achieved using Abstract classes and interfaces
+* **Abstract class**
+  - _a class containing **`abstract`** keyword in its declaration_
+  - _may or may not contain abstract methods i.e., methods without body (`public void get();`)_
+  - _if a class have at least one abstract method, the class **must** be declared abstract_
+  - _Class used through inheritance, and provided implementations tqo its abstract methods_
+  - _if a class is declared abstract, it can't be instantiated_
+  - _abstract class can be determined the actual implementations by a child class_
+  - _abstract method contains a method signature, but no method body and end with `;`_
+  - **Interfaces**
+    - A reference type similar to a class.
+    - _A class implements an interface, thereby inheriting the abstract methods of the interface_
+    - _may contain abstract methods, static methods, and nested types_
+    - _A **class** defines attributes and behaviors of an object, an **interface** contains behaviors that a class implements_
+    - _Unless the class that implements the interface is abstract, **all** the methods of the interface need to be **defined** in/by the class_
+    - _Methods are abstract by default and no need to use the abstract keyword_
+    - _Can not be instantiated_
+    - _Can not have constructors_
+    - _Can implement more than one interface_
+    - _Can extend from other interfaces_
+      > `interface People {
+         public void department();
+         void jobRole();
+       }`
+  - **Extending Interfaces**
+    - _An interface can extend another interface or more interfaces_
+    - _Child interface inherits the methods of the parent interface_
+    - _`public interface MathsTeacher extends Teacher, Person {}`_
