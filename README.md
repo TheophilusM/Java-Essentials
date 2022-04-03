@@ -376,3 +376,28 @@
   - _use a reference to the class being checked_
   - _`ClassName c;`_ - class reference in another class, created as an object
   - _`c.varName`_ - accessing the variables in the other class
+* Types of inheritance
+  - **_single_**
+  - **_multi level_**
+  - **_hierarchical_**
+  - **_multiple_**
+    - _NB: Not supported by Java :x:_
+### **_Polymorphism_**
+* An object showing different stages of its life cycle or performing single action in dff ways
+* Allows an interface to be used for general class of actions
+* many forms
+* Types of Polymorphism
+  - _Compile time_
+    - **Method overloading - static polymorphism**
+    - _allows re-writing or reuse the method again_
+    - _methods can be part of same class or subclass but with the same name and different parameters (**type, number and sequence**)_
+    - _to call overloaded methods, it's a must to define the type and number of arguments to determine which version of overloaded method is to be called_
+    - _Return type may or may not be the same_
+    - _Constructors can be overloaded_
+  - _Runtime_
+    - **Overriding**
+    - _To override the functionality of an existing method_
+    - _SubClass can override a method in a SupperClass if method not marked final_
+    - _Benefit: Ability to define a behavior that s specific to the subclass type_
+    - _dynamic  binding_
+    - _`ParentClass objName = new ChildClass();`_
