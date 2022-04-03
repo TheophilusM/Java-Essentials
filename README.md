@@ -432,3 +432,13 @@
     - _An interface can extend another interface or more interfaces_
     - _Child interface inherits the methods of the parent interface_
     - _`public interface MathsTeacher extends Teacher, Person {}`_
+### **_Encapsulation_**
+* A mechanism of wrapping the data (variables) and code acting on the data (methods) together as single unit
+* The variables of a class will be hidden from other class, therefore it is aka data hiding
+* To achieve data encapsulation
+  - _Declare the variable of a class as private_
+  - _Provide public setter and getter methods to modify and view the variables values_
+* Benefits
+  - _The fields of a class can be read-only or write-only_
+  - _Class can have total control over what is stored in its fields_
+  - _Users of the class do not know how the class stores its data, class can change the datatype of the field and users of the class do not need to change any of their code_
