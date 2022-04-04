@@ -458,3 +458,51 @@
     * `...className` - specific class
     * `...fullyQualifiedName` - creating an object reference
       - _`packageName.ClassName objName = new packageName.ClassName()`_
+### **Directory structure of the packages**
+* Name of package becomes part of the name of the class
+* Name of package must match the directory structure where the corresponding bytecode resides
+
+
+
+## **Exceptions**
+* Is a problem that arises during the execution of a program.
+* Some reasons
+  - User error
+  - Programmer error
+  - Network error
+  - Physical resource error
+* Categories 
+  - Checked exception
+    - _occur at the compilation time_
+  - Unchecked exceptions / Runtime exception
+    - _Occur at the execution_
+* Exception hierarchy
+  - Throwable class
+    - Errors
+      - _eg. memory exhaustion, can't be handled_
+    - Exceptions
+      - Can be handled 
+      - :1: Runtime exceptions
+      - :2: Other 
+* Exception methods
+  - _`getMessage()`_
+  - _`Throwable getCause()`_
+  - _`toString()`_
+  - _`printStackTrace()`_
+  - _`StackTraceElement [] getStackTrace()`_
+  - _`Throwable fillinStackTrace()`_
+* Multiple Catch blocks
+  - _try/catch block_
+  - _to catch more than one error type_
+  - _takes note of the ExceptionType_
+  - _`public void methodName() throws ArithmeticException, IOException`_ keyword
+  - _`throw new ArithmeticException("Sorry")`_ keyword
+* Finally block
+  - _Block of code always executes. irrespective of occurrence of Exception_
+  - _Clean-type statements_
+  - _Try/Catch/Finally_
+* User defined exceptions
+  - _Must be a child of Throwable class and also the type_
+  - _`class MyExceptionClassName extends Throwable`_
+  - _`throw`_ - keyword
+  - 
