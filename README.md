@@ -505,4 +505,39 @@
   - _Must be a child of Throwable class and also the type_
   - _`class MyExceptionClassName extends Throwable`_
   - _`throw`_ - keyword
-  - 
+
+## **File and I/O**
+* A stream is a sequence of data
+* Stream types
+  - _InPutStream_ - read data
+    - FileInputStream - read byte inputs
+      - from the files
+      - `InputStream f new FileInputStream("file>?/location")` - reading a file
+      - `File f new File("file>?/location")` - creating a file
+      - Methods - _close(), finalize(), write()_
+    - ByteArrayInputStream - read data that can be read from a number of files
+    - FilterInputStream - BufferedInputStream - to improve the performance, DataInputStream - data can be read in future
+    - ObjectInputStream - supports primitive types and graphs of java objects supporting serialization interface
+  - _OutPutStream_ - write data
+    - FileOutputStream
+      - `OutputStream f new FileOutputStream("file>?/location")` - create and write data into file
+      - Methods - _close(), finalize(), write()_
+    - ByteArrayOutputStream
+    - FilterOutputStream - BufferedOutputStream, DataOutputStream
+    - ObjectOutputStream
+  * ByTe Streams
+    - _I & O of 8-bit bytes_
+    - Example classes - _FileInputStream, FileOutputStream_
+    - _try/catch/finally blocks_
+* Output Streams
+  - FileOutputStream or FileWriter
+  - Methods - write()
+* Input Streams
+  - FileInputStream or FileReader
+  - Methods - read()
+  - While loop
+  - try/catch block
+* Character Streams
+  - _I & O of 16-bit bytes_
+  - Example classes - FileReader and FileWriter
+  - Two bytes at a time
