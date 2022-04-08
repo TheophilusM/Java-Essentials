@@ -541,3 +541,9 @@
   - _I & O of 16-bit bytes_
   - Example classes - FileReader and FileWriter
   - Two bytes at a time
+  - `FileReader f new FileReader("file>?/location")`
+  - `FileWritter f new FileWritter("file>?/location")`
+* Standard I/O Streams
+  - Standard Input - `Systme.in`
+  - Standard Output - `Systme.out`
+  - Standard Error - `Systme.err`
