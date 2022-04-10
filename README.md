@@ -563,12 +563,43 @@
 * TCP/IP
 * Socket programming or URL processing
 * Socket types
-  - Data stream socket
-  - Server socket
+  - _Data stream socket_
+  - _Server socket_
 * Server concurrency strategies
-  - Serial
-  - Forking
-  - Threaded
+  - _Serial_
+  - _Forking_
+  - _Threaded_
 * Classes
-  - ServerSocket
-  - Socket
+  - _ServerSocket_
+  - _Socket_
+
+## **Java Multithreading**
+* Can develop a program that contains two or more parts that can run concurrently 
+  and each part can handle a dff task at the same time making optimal use of available resources.
+* Thread Lifecycle
+  - New - create
+  - Runnable - start
+  - Running - run
+  - Waiting - sleep/wait
+  - Dead- end
+* Thread priority
+  - ranges 1 to 10
+  - default 5
+  - can set min and max
+* Methods
+  - start()
+  - run()
+  - setName()
+  - setPriority()
+  - setDaemon()
+  - join()
+  - interrupt()
+  - isAlive()
+  - yield()
+  - sleep()
+  - holdsLock
+  - currentThread()
+  - dumpStack()
+* Creating and using Threads
+  - _`extends Thread`_
+  - _`implements Runnable`_
