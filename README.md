@@ -462,8 +462,6 @@
 * Name of package becomes part of the name of the class
 * Name of package must match the directory structure where the corresponding bytecode resides
 
-
-
 ## **Exceptions**
 * Is a problem that arises during the execution of a program.
 * Some reasons
@@ -556,4 +554,21 @@
     - _mkdir()_
     - _mkdirs()_
   - try/catch ...
-* 
+* Directory Listing
+  - list() method
+  - result can be stored in array
+
+## **Java Networking**
+* Programs that execute across multiple devices, with all devices connected to each other using a network
+* TCP/IP
+* Socket programming or URL processing
+* Socket types
+  - Data stream socket
+  - Server socket
+* Server concurrency strategies
+  - Serial
+  - Forking
+  - Threaded
+* Classes
+  - ServerSocket
+  - Socket
