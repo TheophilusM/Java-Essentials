@@ -664,3 +664,10 @@
 * Methods
   - add()
   - iterator()
+
+## **HashSet**
+* A collection that contains no duplicate elements
+* Order is not fixed
+* Method
+  - add()
+  - iterator()
