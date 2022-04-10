@@ -626,3 +626,22 @@
 ## **Bounded Type Parameters**
 * To restrict the kinds of types that are allowed to be passed to a type parameter.
 * Declared by listing the type parameter's name. followed by the extends keyword, followed by its upper bound
+
+## **Collection framework**
+* Array size is fixed and updating them is costly in terms of performance
+* Collections can hold 0 upto multiple objects
+* Other operations
+  - adding dynamically
+  - removing
+  - iterating and listing
+  - retrieving
+  - searching
+  - deleting a particular object
+* Collection interfaces
+  - Lists - _guarantees order, implementations ArrayLists, LinkedLists_
+  - Queue
+    - Deque
+  - Set - _no duplicates, implementations are: HashSet, LinkSet, PreSet_
+    - SortedSet
+  * *Map - key pair values
+    - Sorted Map
