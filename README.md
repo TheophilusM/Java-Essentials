@@ -645,3 +645,10 @@
     - SortedSet
   * *Map - key pair values
     - Sorted Map
+
+## **Iterator Interface**
+* Allows user to visit the elements in the container one by one in forward direction only
+* Methods
+  - boolean hasNext()
+  - next()
+  - remove()
