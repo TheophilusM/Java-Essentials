@@ -658,3 +658,9 @@
 * Methods
   - compare()
   - equal()
+
+## **ArrayList**
+* `List<String> people = ArrayList<String>()`
+* Methods
+  - add()
+  - iterator()
