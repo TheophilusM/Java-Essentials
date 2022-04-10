@@ -622,3 +622,7 @@
 * Also provide compile-time types safety that allows programmers to catch invalid types at compile time.
 * Can write a generic method for sorting an array of objects, then invoke the generic method with Integer arrays,
   Double arrays, String arrays and so on, to sort array elements.
+
+## **Bounded Type Parameters**
+* To restrict the kinds of types that are allowed to be passed to a type parameter.
+* Declared by listing the type parameter's name. followed by the extends keyword, followed by its upper bound
