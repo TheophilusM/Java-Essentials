@@ -652,3 +652,9 @@
   - boolean hasNext()
   - next()
   - remove()
+
+## **Comparator**
+* To order objects of User-Defined classes
+* Methods
+  - compare()
+  - equal()
