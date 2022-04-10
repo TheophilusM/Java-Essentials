@@ -603,3 +603,18 @@
 * Creating and using Threads
   - _`extends Thread`_
   - _`implements Runnable`_
+
+## **Serialization & Deserialization**
+* Serialization is a process of converting an object into a sequence of bytes which can be persisted to a 
+  disk or database or can be sent through streams.
+* Deserialization is the reverse process
+* The entire process is JVM independent
+* Interfaces
+  - Serializable
+  - Externalizable
+* Classes
+  - ObjectInputStream
+  - ObjectOutputStream
+
+## **Generics**
+* 
