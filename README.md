@@ -617,4 +617,8 @@
   - ObjectOutputStream
 
 ## **Generics**
-* 
+* Generic methods and Classes enable programmers to specify, with a single method
+  declaration, a set of related types respectively.
+* Also provide compile-time types safety that allows programmers to catch invalid types at compile time.
+* Can write a generic method for sorting an array of objects, then invoke the generic method with Integer arrays,
+  Double arrays, String arrays and so on, to sort array elements.
